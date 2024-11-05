@@ -1,0 +1,7 @@
+a. A company's profit: float - so it can be decimal number £200.65
+b. A person's weight: float - so it can be decimal number 85.6kg
+c. A book title one: string - so it can like this "The One"
+d. Avarage rainfall in September: float - so it can be measured with decimal numbers such as 3.8ml
+e. Number of runs scored by a cricketer: integer - because the cricketer can not run hal a run 156
+f. A telephone number, including area code: string - so "+" can be inputted for example +447890768421
+g. A dress size: string - it can be like XL

@@ -1,0 +1,17 @@
+rent = float(input("Rent per month: "))
+gas = float(input("Gas payment per month: "))
+electricity = float(input("Electricity payment per month: "))
+water = float(input("Water payment per month: "))
+council_tax = float(input("Council tax payment per month: "))
+
+total_sum = (rent + gas + electricity + water + council_tax)
+
+print("\nYour monthly expenses are: ")
+print("\n{:<15}£{:>1.2f}" .format("Rent:", rent))
+print("{:<15}£{:>1.2f}" .format("Gas:", gas))
+print("{:<15}£{:>1.2f}" .format("Electricity:", electricity))
+print("{:<15}£{:>1.2f}" .format("Water:", water))
+print("{:<15}£{:>1.2f}" .format("Council Tax:", council_tax))
+print("="*21)
+print("{:<15}£{:>1.2f}" .format("Total:", total_sum))
+print("="*21)
